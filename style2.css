@@ -6,27 +6,17 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-
-.menu-hero-section {
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('./images/living-room.jpg');
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px 7.5%;
-    color: white;
-}
-
 .menu {
     
     background-color: rgba(0, 0, 0, 0.394);
-    margin: auto;
     display: flex;
     justify-content: space-between;
     padding: 20px 4%;
     align-items: center;
     backdrop-filter: blur(40px);
     border-radius: 8px;
+        margin: 50px 7.5%;
+        background-color: bisque;
 }
 
 .header{
@@ -36,6 +26,7 @@
 
     font-family: 'Pacifico', cursive;
     font-weight: 500;
+    color: brown;
 }
 
 a {
@@ -48,7 +39,7 @@ a {
 }
 
 #nav-menu ul li a {
-    color: white;
+    color: brown;
     padding: 0 20px;
 }
 
@@ -63,59 +54,48 @@ a {
     #menu-button:hover {
         background-color: transparent;
         cursor: pointer;
-        color: white;
-        border: 1px solid white;
-    }
-    .hero-body-text {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        height: 60vh;
-    }
-    .hero-body-text h1 {
-        font-weight: 500;
-        font-size: 50px;
-        margin-bottom: 20px;
-        margin-top: 40px;
-
-    }
-    .hero-body-text p {
-width: 75%;
-        font-weight: 300;
-        font-size: 24px;
-        margin-top: 20px;
-        text-align: center;
-
+        color: brown;
+        border: 1px solid brown;
     }
 
-    .below-section {
+    .about-below-section {
         width: 85%;
-        margin: 130px auto;
+        margin: 100px auto 50px;
+    }
+    .about-below-section h1 {
+        text-align: center;
+        color: brown;
+        font-size: 42px;
+    }
+    .below-section-body {
         display: flex;
         justify-content: space-between;
-    
+        margin-top: 60px;
+        font-size: 18px;
+        line-height: 28px;
     }
-    .below-section img {
-        box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
-        width: 55%;
-        object-fit: cover;
-    }
+    .below-section-body strong {
+        margin-bottom: 24px;
 
-    .image-right-text {
-        width: 40%;
     }
-    .image-right-text h1 {
-       font-size: 40px;
-       font-weight: 300;
-       margin-bottom: 20px;
-    }
-    .image-right-text p {
-       font-size: 16px;
-       line-height: 28px;
-    }
+    .below-section-body p {
+        margin-bottom: 24px;
 
+    }
+    .below-section-body h2 {
+        color: brown;
+        font-size: 42px;
+        font-weight: 300;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+    .below-section-body div {
+        width: 60%;
+    }
+    .below-section-body img {
+        width: 35%;
+        box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.5);
+    }
     footer {
         height: 100px;
         background-color: bisque;
